@@ -8,7 +8,11 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open planing.html",
+<<<<<<< HEAD
             "file": "d:\\Usuario\\Documents\\GitHub\\DSW-Juan-David-Perez\\DSW-Juan-David-Perez\\DSW-Juan-David-Perez\\planing.html"
+=======
+            "file": "d:\\Usuario\\Documents\\GitHub\\DSW-Juan-David-Perez\\DSW-Juan-David-Perez\\planing.html"
+>>>>>>> edc765a3328f03acf6d7ab97b7a1c938a57fd63a
         }
     ]
 }
