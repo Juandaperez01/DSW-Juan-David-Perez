@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang- "en">
+<html lang="en">
 <head>
-     <meta charset-"UTF-8">
-     <meta name= "viewport"content= "width=device-width,initial-scale=1.0 "
-     <title> document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="misestilos.css">
 </head>
-<body>
-     <h1>nombre: Juan David Perez Diaz </h1>
-     <h1>programa:Ingenieria de sistemas </h1>
-     <h1> fecha de creación: 06/09/2020 </h1>
-     <h1>celular: 3165363410 </h1>
-     <h1>correo: jdavidperezd@gmail.com </h1>
-     <h1>edad: 19 años </h1>
 
-<nav>
-         <ul class-"menu">
-             <li><a href= "planing.html"> Fase 2 - Diseño: Crear el Guión y la maquetación para un OVI </li></a>
-          </ul>
-</nav>
+<body>
+    <h1 class="titulo" >CSS3: Estilos internos y Externos,Selectores CSS </h1>
+    
+    <div class= "menu">
+
+        <a href="Inicio.html">inicio</a>-                           
+        <a href="concepto1-1.html">conceptos</a>-               
+        <a href="recursos1-1.html">recursos</a>-                        
+        <a href="autoevaluacion1-1.html">autoevaluacion</a>-                            
+        <a href="autor.html">autor</a>
+    </div>
+
+    <h2>inicio </h2> 
+    <table class= tabla>
+        <tr>
+            <td>
+               <h3>Objetivos:</h3> 
+                <ul> 
+                    <li>El objetivo general de este sitio consiste en dar a conocer los conceptos basicos de los estilos internos, extenos y selectores de css</li>
+                    <li>dar a conocer los diferentes estilos que hay en css </li>
+                    <li>informar informacion importane gracias a diversos link que nos brinda la pagina  </li>
+                    <li>usar una maqueta de como se vé la pagina, de forma de un boceto con ayuda de un programa en especifico </li>
+                <ul>
+           
+            <h3>Tematicas</h3>
+            <h2>FORMAS DE APLICAR CSS</h1>
+            <p>Ya hemos visto que existen estilos por defecto que aplican automáticamente los navegadores web cuando no hay estilos especificados, así como que podemos embeber código CSS en las propias etiquetas de HTML, “en línea”. Vamos a ver ahora dos formas adicionales de aplicar estilos CSS: en la parte inicial del documento HTML (aplicación de estilos interna o CSS interno) o en un archivo de extensión .css independiente del archivo HTML (aplicación de estilos externa o CSS externo).</p>
+    
+            <h2>CSS INTERNO</h1>
+            <p>Las diferentes propiedades y valores se pueden poner en una misma línea o en distintas líneas según se prefiera (siempre separados mediante punto y coma). Dentro de las etiquetas  …  incluiremos una etiqueta de apertura de declaración de estilos a continuación colocaremos la definición de tantos estilos como deseemos y cerraremos la declaración con.  En HTML 5 no es necesario especificar type =”text/css” pero de momento seguimos recomendando que se use esta sintaxis.</p>
+            <h2>CSS EXTERNO</h1>
+            <p>Aunque el CSS interno nos permite unificar en una declaración todos los estilos para un archivo html, seguimos teniendo el problema de tener que repetir la definición de estilos en la cabecera de cada uno de los archivos html de nuestro desarrollo web. Si el desarrollo tiene pocos archivos quizás sea menos problemático, pero cuando el desarrollo tiene cientos o miles de archivos sí se convierte en un verdadero problema, ya que cada vez que introdujéramos cambios habría que hacerlo en los cientos o miles de archivos de que constara el desarrollo.</p>
+            </td>
+            <td>
+                <img src ="logoU.png" alt = "logoU">
+            </td>
+            <aside> 
+                <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/ConveniosUNAD?src=hash&amp;ref_src=twsrc%5Etfw">#ConveniosUNAD</a> Conoce el convenio de la UNAD con el Consejo Superior de la Judicatura obtén un descuento sobre el valor de la matrícula.🤩<br>✔️Recuerda que presentando el certificado electoral vigente obtienes un 10% adicional.<br><br>Más información👉 <a href="https://t.co/iXcD2YJqln">https://t.co/iXcD2YJqln</a> <a href="https://t.co/czjczK70bZ">pic.twitter.com/czjczK70bZ</a></p>&mdash; Universidad UNAD (@UniversidadUNAD) <a href="https://twitter.com/UniversidadUNAD/status/1322235634648571909?ref_src=twsrc%5Etfw">October 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+           </aside>
+        </tr>
+    </table>
 </body>
+
 </html>
